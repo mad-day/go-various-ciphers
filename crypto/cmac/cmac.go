@@ -30,12 +30,7 @@ import (
 	"crypto/subtle"
 	
 	"hash"
-	"fmt"
 )
-
-func debug(i ...interface{}) {
-	fmt.Println(i...)
-}
 
 var EInvalidBlockSize = errors.New("unsupported blocksize")
 
