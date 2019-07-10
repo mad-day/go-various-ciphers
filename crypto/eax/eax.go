@@ -34,7 +34,7 @@ import (
 	"crypto/cipher"
 	"crypto/subtle"
 	"hash"
-	"github.com/enceve/crypto/cmac"
+	"github.com/mad-day/go-various-ciphers/crypto/cmac"
 )
 
 var (
